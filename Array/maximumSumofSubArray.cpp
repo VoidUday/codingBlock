@@ -37,3 +37,5 @@ int main(){
      return 0;
     
 }
+
+// not optimized time complexity is O(n^3) which is not good
