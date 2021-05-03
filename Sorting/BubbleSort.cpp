@@ -1,10 +1,14 @@
 #include<iostream>
 using namespace std;
+
+//swaping the element
 void swap(int *xp, int *yp){
     int temp = *xp;
     *xp = *yp;
     *yp = temp;
 }
+
+//bubble sort
 void bubbleSort(int arr[], int size){
      int i, j;
      for ( i = 0; i < size; i++)
